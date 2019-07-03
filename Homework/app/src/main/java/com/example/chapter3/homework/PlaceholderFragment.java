@@ -62,7 +62,7 @@ public class PlaceholderFragment extends Fragment {
                         super.onAnimationEnd(animation);
                         animationView.setVisibility(View.GONE);
                         Log.e(TAG, "onAnimationEnd: " + "end");
-                    }//吮吸嫩乳头
+                    }
                 });
 
                 animator.setDuration(1000);
@@ -73,7 +73,7 @@ public class PlaceholderFragment extends Fragment {
                 animatorSet.start();
             }
         }, 5000);
-    }  //狂嘬大鸡鸡
+    }
 
     private static class ListViewAdapter extends BaseAdapter {
         private String[] users = {"user1", "user2", "user3"};
